@@ -14,5 +14,5 @@ if you want any other features added send me a friend request on discord: boden#
 
 small showcase: https://youtu.be/CUFh8tOwslA
 
-![test account]([http://url/to/img.png](https://cdn.discordapp.com/attachments/750320333638336553/1075550684537167992/gamebotProfile.png))
+![alt text](https://github.com/bodeneineheit/pubstomping2.0/blob/main/gamebotProfile.png.png?raw=true)
 (server disconnect caused the one loss 😭)
