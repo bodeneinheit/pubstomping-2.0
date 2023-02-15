@@ -10,7 +10,7 @@
 - the f4 scripts allows you to hit f4 and you will be logged out and search for a new lobby (stats of the game will not count)
 
 if you want any other features added send me a friend request on discord: boden#1337
-(if the request is high enough, i will add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
+(if the amount of requests seems high, i may add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
 
 small showcase: https://youtu.be/CUFh8tOwslA
 
