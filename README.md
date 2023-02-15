@@ -15,4 +15,5 @@ if you want any other features added send me a friend request on discord: boden#
 small showcase: https://youtu.be/CUFh8tOwslA
 
 ![test profile](https://github.com/bodeneinheit/pubstomping2.0/blob/main/gamebotProfile.png)
+
 (server disconnect caused the one loss)
