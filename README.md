@@ -13,3 +13,6 @@ if you want any other features added send me a friend request on discord: boden#
 (if the request is high enough, i will add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
 
 small showcase: https://youtu.be/CUFh8tOwslA
+
+![test account]([http://url/to/img.png](https://cdn.discordapp.com/attachments/750320333638336553/1075550684537167992/gamebotProfile.png))
+(server disconnect caused the one loss 😭)
