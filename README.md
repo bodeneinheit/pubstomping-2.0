@@ -11,3 +11,5 @@
 
 if you want any other features added send me a friend request on discord: boden#1337
 (if the request is high enough, i will add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
+
+small showcase: https://youtu.be/CUFh8tOwslA
