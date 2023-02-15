@@ -13,6 +13,7 @@
 
 if you want any other features added send me a friend request on discord: boden#1337
 (if the amount of requests seems high, i may add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
+coding is neither clean nor optimized, if you have any suggestions/improvements lmk
 
 small showcase: https://youtu.be/CUFh8tOwslA
 
