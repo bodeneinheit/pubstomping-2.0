@@ -19,6 +19,7 @@ coding is neither clean nor optimized, if you have any suggestions/improvements 
 
 small showcase: https://youtu.be/CUFh8tOwslA
 
+test profile (server disconnect caused one loss)
 ![test profile](https://github.com/bodeneinheit/pubstomping2.0/blob/main/gamebotProfile.png)
 
-(server disconnect caused the one loss)
+
