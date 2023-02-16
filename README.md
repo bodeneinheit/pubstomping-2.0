@@ -1,5 +1,5 @@
 # pubstomping2.0
-## scripts which allows for easy nuke & stats farming:
+## scripts which allow for easy nuke & stats farming:
 
 - you will need the idkr client installed
 - remove all accounts from the alt manager and add the account you want to use for insane stats/nuke farming
