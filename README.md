@@ -9,7 +9,8 @@
 - via this script you will automatically be logged out and leave on deaths or other occasions, to ensure insane stats (logging out and leaving ensures you dont get a loss for that game)
 - the f4 scripts allows you to hit f4 and you will be logged out and search for a new lobby (stats of the game will not count)
 
-**make sure to view the file and edit it to your liking, because it is set up quite strictly by default - using the default windows notepad works**
+**you will need kills, deaths and streak counters turned on in your settings**
+**make sure to view the file and EDIT IT to your liking, because it is set up quite strictly by default - using the default windows notepad works**
 
 if you want any other features added send me a friend request on discord: boden#1337
 (if the amount of requests seems high, i may add more parameters such as a minimum kd, kpg or nuke count at the end of the game)
