@@ -10,6 +10,7 @@
 - the f4 scripts allows you to hit f4 and you will be logged out and search for a new lobby (stats of the game will not count)
 
 **you will need kills, deaths and streak counters turned on in your settings**
+
 **make sure to view the file and EDIT IT to your liking, because it is set up quite strictly by default - using the default windows notepad works**
 
 if you want any other features added send me a friend request on discord: boden#1337
