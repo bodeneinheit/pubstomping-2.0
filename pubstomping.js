@@ -1,17 +1,20 @@
 //params
 //make sure kill, death and streak counters are enabled
-const autoLogInOut = false; //true = autologs in and out, false does not
-const selectedModes = true; //true = leaves if gamemodes is not in the array below
+const autoLogInOut = true; //true = autologs in and out, false does not
+const selectedModes = false; //true = leaves if gamemodes is not in the array below
 const gameModes = ["ffa", "shrp", "krank", "bhffa", "depoffa", "chs"]; //gamemodes as array
-const autoPick = true; // true = autopicks class below
-const weaponClass = 2; // pick value from below
+const autoPick = true; // true = autopicks class below - !!autoloading the loadout presets will override this!!
+const weaponClass = 0; // pick value from below
+const autoLoadLoadout = true; //true = will automatically equip/load the loadout entered below
+const loadout = "lol"; //change to the loadout you want to have equipped on gameload
 //0 = ak, 1 = sniper, 2 = smg, 3 = lmg, 4 = shotgun, 5 = rev, 6 = semi, 7 = rpg
 //8 = uzi, 9 = runner, 11 = cbow, 12 = famas, 13 = trooper, 15 = charge rifle
 
 const leaveOnDeath = true; // true = leaves when dying; false = doesnt leave when dying
-const leavetime = 100; // enter time to leave at (in seconds) when no kills were made
-const stayNuke = false; // true = always stay when nuked
-const stayDoubleNuke = false; // true = always stay when doublenuked
+const leaveOnLowTime = false // true = leaves once time is lower than the one entered in the line below
+const leaveTime = 100; // enter time to leave at (in seconds) when no kills were made  - set to a negative value to never leave
+const stayNuke = true; // true = always stay when nuked
+const stayDoubleNuke = true; // true = always stay when doublenuked
 
 /*----------------------------------------------------------------------------------*/
 //dont touch anything below here
@@ -42,7 +45,7 @@ setInterval(() => {
     //checks for nukes
     if (!(stayNuke && nuke) && !(stayDoubleNuke && doubleNuke)) {
         //checks for deaths and lowtime
-        if ((leaveOnDeath && deaths == '1') || (leavetime > lobbyRestTime && kills == 0)) {
+        if ((leaveOnDeath && deaths == '1') || (leaveOnLowTime && kills == 0 && leavetime > lobbyRestTime)) {
             //logout
             if (autoLogInOut) logoutAcc();
             //open krunker
@@ -75,6 +78,15 @@ setTimeout(() => {
 
 				setTimeout(() => {
 					loginAcc() //login with entered credentials (from alt manager)
+					
+					setTimeout(() => {
+                            			//loads loadout
+                            			if (autoLoadLoadout) {
+                                			showWindow(3)
+                                			document.getElementById("loadoutSelect").value = loadout;
+                                			windows[2].action(0)
+                           			}
+                        		}, 1000)
 				}, 500)
 			}, 500)
 		}, 500)
