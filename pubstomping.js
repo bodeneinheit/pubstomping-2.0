@@ -1,6 +1,6 @@
 //params
 //make sure kill, death and streak counters are enabled
-const autoLogInOut = false; //true = autologs in and out, false does not
+const autoLogInOut = false; //true = ONLY LOGS YOU IN FROM NOW ON - NO LOGOUT ANYMORE
 const selectedModes = true; //true = leaves if gamemodes is not in the array below
 const gameModes = ["ffa", "shrp", "krank", "depoffa", "chs", "tdm"]; //gamemodes as array
 const autoPick = true; // true = autopicks class below - !!autoloading the loadout presets will override this!!
@@ -50,9 +50,6 @@ setInterval(() => {
     if (!(stayNuke && nuke) && !(stayDoubleNuke && doubleNuke)) {
         //checks for deaths and lowtime
         if ((leaveOnDeath && deaths == '1') || (leaveOnLowTime && kills == 0 && leavetime > lobbyRestTime) || (minimumKDR >= killperdeath)) {
-            //logout
-            if (autoLogInOut) logoutAcc();
-            //open krunker
             setTimeout(() => {
                 location.href = 'https://krunker.io';
             }, 100)
@@ -64,8 +61,6 @@ setInterval(() => {
 setTimeout(() => {
     const gameInfo = document.getElementById("mapInfo").innerText.split("_")[0]; //gets gamemode from mapInfo
     if (selectedModes && !(gameModes.includes(gameInfo))) {
-        //logout
-        logoutAcc();
         //open krunker
         setTimeout(() => {
             location.href = 'https://krunker.io';
