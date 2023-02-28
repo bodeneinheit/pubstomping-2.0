@@ -23,7 +23,7 @@ const minimumKDR = 5; //minimum required kdr
 let nuke = false;
 let doubleNuke = false;
 
-//leave and logout stuff
+//leave stuff
 setInterval(() => {
     //gets streak
     const streak = document.getElementById("streakVal").innerText;
