@@ -1,13 +1,14 @@
+**LOGOUT AND LOSS-AVOIDING REMOVED - CONSIDERED EXPLOTING AND MAY LEAD TO BAN**
 # pubstomping2.0
 ## scripts which allow for easy nuke & stats farming:
 
 - you will need the idkr client installed
 - remove all accounts from the alt manager and add the account you want to use for insane stats/nuke farming
 - put both js-files into `\Documents\idkr\scripts\`
-- the script will automatically log you in once you open the game
+- the script will **NOT** automatically log you in once you open the game **ANYMORE**
 - at the top of the pubstomping file you can edit parameters to your liking, everything is explained there
-- via this script you will automatically be logged out and leave on deaths or other occasions, to ensure insane stats (logging out and leaving ensures you dont get a loss for that game)
-- the f4 scripts allows you to hit f4 and you will be logged out and search for a new lobby (stats of the game will not count)
+- via this script you will **NOT** automatically be logged out and leave on deaths or other occasions, to ensure insane stats
+- the f4 scripts allows you to hit f4 and you search for a new lobby (stats of the game will not count)
 
 **you will need kills, deaths and streak counters turned on in your settings**
 
